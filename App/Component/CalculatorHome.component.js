@@ -49,7 +49,7 @@ class HomeScreenComponent extends React.Component {
     const {parcelPrice, currencyYen, statisticList} = this.props;
     // const initialNextPage = result(pokemonPagination, 'nextPage', '');
     return (
-      <ScrollView contentContainerStyle={styles.bottomContainer} style={{flexGrow: 1, backgroundColor: '#FFFFFF'}}>
+      <ScrollView contentContainerStyle={styles.bottomContainer} style={{flexGrow: 1, backgroundColor: '#E9E9E9'}}>
 
         <View style={styles.containerNavigation}>
           <TouchableOpacity onPress={this.goToViewStatistic} style={{paddingHorizontal: 25, paddingVertical: 10, borderRadius: 10, backgroundColor: 'black'}}><Text style={{fontSize: 16, color: 'white', fontWeight: '600'}}>Statistic data</Text></TouchableOpacity>
